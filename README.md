@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Our Wedding</title>
+    <title>Romariya & Shirish's Wedding</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         background-color: #F5F5F5;
       }
       header {
-        background-color: #F7CAC9;
+        background-color: #F72233;
         padding: 20px;
         text-align: center;
       }
       header h1 {
         font-size: 36px;
-        color: #6D4C41;
+        color: #FFD700;
+        margin: 0;
+      }
+      header h2 {
+        font-size: 24px;
+        color: #FFD700;
         margin: 0;
       }
       nav ul {
@@ -24,7 +29,7 @@
       }
       nav a {
         font-size: 24px;
-        color: #6D4C41;
+        color: #FFD700;
         text-decoration: none;
         margin: 0 10px;
       }
@@ -34,50 +39,47 @@
         padding: 20px;
       }
       section {
-        background-color: #FDFD96;
+        background-color: #F72233;
         padding: 20px;
         margin-bottom: 20px;
       }
       section h2 {
         font-size: 36px;
-        color: #6D4C41;
+        color: #FFD700;
         margin: 0;
       }
       footer {
-        background-color: #F7CAC9;
+        background-color: #F72233;
         padding: 20px;
         text-align: center;
       }
       footer p {
         font-size: 24px;
-        color: #6D4C41;
+        color: #FFD700;
         margin: 0;
       }
-      form {
+      .bride-groom {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        background-color: #FDFD96;
-        padding: 20px;
+        margin-bottom: 20px;
       }
-      label, input[type="submit"] {
-        font-size: 24px;
-        color: #6D4C41;
-        margin: 10px 0;
+      .bride-name {
+        font-size: 48px;
+        color: #FFD700;
+        text-align: right;
       }
-      input[type="text"], input[type="email"] {
-        font-size: 20px;
-        padding: 5px;
-        width: 400px;
-      }
-      input[type="radio"] {
-        margin-right: 10px;
+      .groom-name {
+        font-size: 48px;
+        color: #FFD700;
+        text-align: left;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>Emily & John's Wedding</h1>
+      <h1>Romariya & Shirish's Wedding</h1>
+      <h2>Love Conquers All</h2>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -89,9 +91,6 @@
     <main>
       <section id="about">
         <h2>About Us</h2>
-        <p>We are thrilled to announce our wedding on June 20, 2022! Join us as we start our journey together.</p>
-      </section>
-      <section id="details">
-        <h2>Wedding Details</h2>
-        <ul>
-          <li>Date: June 20, 2022</
+        <div class="bride-groom">
+          <div class="bride-name">Romariya Maharjan</div>
+         
