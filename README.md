@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>John & Jane's Wedding</title>
+    <title>Shirish & Romariya's Wedding</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -57,7 +57,7 @@
   </head>
   <body>
     <header>
-      <h1>John & Jane's Wedding</h1>
+      <h1>Shirish & Romariya's Wedding</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -69,12 +69,12 @@
     <main>
       <section id="about">
         <h2>About Us</h2>
-        <p>We are John and Jane, and we are getting married! We are thrilled to share this special day with our friends and family.</p>
+        <p>We are Shirish & Romariya, and we are getting married! We are thrilled to share this special day with our friends and family.</p>
       </section>
       <section id="details">
         <h2>Wedding Details</h2>
-        <p>Date: August 20, 2022</p>
-        <p>Location: San Francisco, CA</p>
+        <p>Date: August 20, 2023</p>
+        <p>Location: Kathmandu, CA</p>
       </section>
       <section id="rsvp">
         <h2>RSVP</h2>
@@ -82,7 +82,7 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2022 John & Jane</p>
+      <p>&copy; 2022 Shirish & Romariya</p>
     </footer>
   </body>
 </html>
