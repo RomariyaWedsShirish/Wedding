@@ -2,6 +2,78 @@
 <html>
   <head>
     <title>Our Wedding</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #F5F5F5;
+      }
+      header {
+        background-color: #F7CAC9;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 36px;
+        color: #6D4C41;
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      nav a {
+        font-size: 24px;
+        color: #6D4C41;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      section {
+        background-color: #FDFD96;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      section h2 {
+        font-size: 36px;
+        color: #6D4C41;
+        margin: 0;
+      }
+      footer {
+        background-color: #F7CAC9;
+        padding: 20px;
+        text-align: center;
+      }
+      footer p {
+        font-size: 24px;
+        color: #6D4C41;
+        margin: 0;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FDFD96;
+        padding: 20px;
+      }
+      label, input[type="submit"] {
+        font-size: 24px;
+        color: #6D4C41;
+        margin: 10px 0;
+      }
+      input[type="text"], input[type="email"] {
+        font-size: 20px;
+        padding: 5px;
+        width: 400px;
+      }
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -22,30 +94,4 @@
       <section id="details">
         <h2>Wedding Details</h2>
         <ul>
-          <li>Date: June 20, 2022</li>
-          <li>Time: 5:00 PM</li>
-          <li>Location: Grand Ballroom, Downtown Hilton</li>
-        </ul>
-      </section>
-      <section id="rsvp">
-        <h2>RSVP</h2>
-        <p>Please RSVP by May 20, 2022.</p>
-        <form action="submit_rsvp.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-          <label for="attending">Will you be attending?</label>
-          <input type="radio" id="attending_yes" name="attending" value="yes">
-          <label for="attending_yes">Yes</label>
-          <input type="radio" id="attending_no" name="attending" value="no">
-          <label for="attending_no">No</label><br><br>
-          <input type="submit" value="Submit RSVP">
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2022 Emily & John</p>
-    </footer>
-  </body>
-</html>
+          <li>Date: June 20, 2022</
