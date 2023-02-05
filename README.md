@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Our Wedding</title>
+    <title>John & Jane's Wedding</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #F5F5F5;
+      }
+      header {
+        background-color: #F72233;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 36px;
+        color: white;
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+      }
+      nav a {
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      section {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      section h2 {
+        font-size: 36px;
+        color: #F72233;
+        margin: 0;
+      }
+      footer {
+        background-color: #F72233;
+        padding: 20px;
+        text-align: center;
+      }
+      footer p {
+        font-size: 24px;
+        color: white;
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Emily & John's Wedding</h1>
+      <h1>John & Jane's Wedding</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -17,35 +70,20 @@
     <main>
       <section id="about">
         <h2>About Us</h2>
-        <p>We are thrilled to announce our wedding on June 20, 2022! Join us as we start our journey together.</p>
+        <p>We are John and Jane, and we are getting married! We are thrilled to share this special day with our friends and family.</p>
       </section>
       <section id="details">
         <h2>Wedding Details</h2>
-        <ul>
-          <li>Date: June 20, 2022</li>
-          <li>Time: 5:00 PM</li>
-          <li>Location: Grand Ballroom, Downtown Hilton</li>
-        </ul>
+        <p>Date: August 20, 2022</p>
+        <p>Location: San Francisco, CA</p>
       </section>
       <section id="rsvp">
         <h2>RSVP</h2>
-        <p>Please RSVP by May 20, 2022.</p>
-        <form action="submit_rsvp.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-          <label for="attending">Will you be attending?</label>
-          <input type="radio" id="attending_yes" name="attending" value="yes">
-          <label for="attending_yes">Yes</label>
-          <input type="radio" id="attending_no" name="attending" value="no">
-          <label for="attending_no">No</label><br><br>
-          <input type="submit" value="Submit RSVP">
-        </form>
+        <p>Please let us know if you can make it to our wedding by filling out the form on our website.</p>
       </section>
     </main>
     <footer>
-      <p>Copyright &copy; 2022 Emily & John</p>
+      <p>&copy; 2022 John & Jane</p>
     </footer>
   </body>
 </html>
